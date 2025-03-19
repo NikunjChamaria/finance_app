@@ -132,8 +132,8 @@ class _ManageTransactionState extends State<ManageTransaction> {
               }),
               _buildCategoryButton(),
               _buildMonthYearSelector(),
-              SizedBox(height: 50.h),
               _buildSubmitButton(),
+              _buildDeleteButton(),
             ],
           ),
         );
@@ -352,5 +352,21 @@ class _ManageTransactionState extends State<ManageTransaction> {
           text: "${widget.transaction == null ? "Add" : "Edit"} Transaction",
           onPressed: _addOrEditTransaction,
         ));
+  }
+
+  Widget _buildDeleteButton() {
+    return widget.transaction == null
+        ? const SizedBox.shrink()
+        : SizedBox(
+            width: double.infinity,
+            child: AppButton(
+              buttonColor: AppColor.red,
+              text: "Delete Transaction",
+              onPressed: () {
+                transactionController
+                    .deleteTransaction(widget.transaction?.id ?? '');
+                Get.back();
+              },
+            ));
   }
 }
