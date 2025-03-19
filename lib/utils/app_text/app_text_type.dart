@@ -1,0 +1,15 @@
+enum AppTextType {
+  headingProfit,
+  headingLoss,
+  heading,
+  title,
+  heading2,
+  heading2Primary,
+  heading3,
+  heading3Primary,
+  subtitle,
+  titleProfit,
+  titleLoss,
+  profit,
+  loss,
+}
