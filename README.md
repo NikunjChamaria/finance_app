@@ -1,16 +1,40 @@
-# my_finance
+# MyFinance - Personal Finance Tracker
 
-A new Flutter project.
+MyFinance is a Flutter-based personal finance tracking app that helps users manage their income, expenses, and categories efficiently. It provides real-time insights into financial transactions and ensures data persistence using Hive.
 
-## Getting Started
+## Features
+- **Transaction Management:** Add, edit, delete, and view transactions.
+- **Category Management:** Create, edit, and delete categories for transactions.
+- **Financial Overview Dashboard:** Displays income, expenses, balance, and spending trends.
+- **Data Persistence:** Uses Hive for local storage to retain data across app restarts.
+- **State Management:** Implemented using GetX for efficient and reactive UI updates.
 
-This project is a starting point for a Flutter application.
+## Technologies Used
+- **Flutter** - UI framework
+- **Dart** - Programming language
+- **Hive** - Local storage
+- **GetX** - State management
 
-A few resources to get you started if this is your first Flutter project:
+## Installation & Setup
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/NikunjChamaria/finance_app.git
+   cd finance_app
+   ```
+2. Install dependencies:
+   ```sh
+   flutter pub get
+   ```
+3. Run the app:
+   ```sh
+   flutter run
+   ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Deliverables
+- GitHub Repository: [MyFinance](https://github.com/NikunjChamaria/finance_app)
+- Video demonstration [Demo Video](https://drive.google.com/file/d/1yhj-cj2qy-t6Lqupqy1EZNCJ3l3Irq39/view?usp=sharing)
+
+---
+Developed by Nikunj Chamaria 🚀
+
